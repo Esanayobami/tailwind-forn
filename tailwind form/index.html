@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taikwind form</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./build/css/style.css">
+    <!-- js file -->
+    <script src="./js/main.js"></script>
+</head>
+<body class="h-screen w-screen min-h-screen bg-zinc-200">
+<div class="w-full h-full flex flex-col justify-between">
+
+<div  class="bg-slate-600 w-full h-32 flex justify-center items-center ">
+    <div class="h-8 w-40 bg-transparent  flex justify-evenly items-center mt-8">
+        <span class="h-8 w-8 bg-white rounded-full active:bg-white border-2 border-white  flex justify-center items-center  text-black cursor-pointer"><a href="index.html">1</a></span>
+        <span class="h-8 w-8 hover:bg-white rounded-full border-2 border-white  flex justify-center items-center text-white hover:text-black cursor-pointer"><a href="page.html">2</a></span>
+        <span class="h-8 w-8 hover:bg-white rounded-full border-2 border-white  flex justify-center items-center text-white hover:text-black cursor-pointer"><a href="next.html">3</a></span>
+        <span class="h-8 w-8 hover:bg-white rounded-full border-2 border-white  flex justify-center items-center text-white hover:text-black cursor-pointer">4</span>
+    </div> 
+</div>
+
+<div id="login" class="w-full h-full bg-transparent flex items-center justify-around">
+    <div class="w-11/12 h-96 bg-white rounded-lg pl-6">
+        <p class="text-2xl font-bold pt-10">Personal info</p>
+        <p class="text-slate-500 pt-2 font-medium">Please provide your name,email  address, <br> and phone number</p>
+
+        <form>
+            <label class="block pt-2">
+                <span class="text-sm font-medium text-slate-900">Name</span> <br>
+                <input type="text" placeholder="e.g.Dicey" class="border-2 w-11/12 h-11 rounded-md mt-1  pl-6">
+            </label>
+        </form>
+        <form>
+            <label class="block pt-2">
+                <span class="text-sm font-medium text-slate-900">Email</span> <br>
+                <input type="text" placeholder="e.g.dicey.emailname.com" class=" border-2 w-11/12 h-11 rounded-md mt-1  pl-6 ">
+              
+            </label>
+        </form>
+        <form>
+            <label class="block pt-2">
+                <span class="text-sm font-medium text-slate-900">Phone number</span> <br>
+                <input type="text" placeholder="e.g.+1 234 567 890" class="border-2 w-11/12 h-11 rounded-md mt-1  pl-6">
+            </label>
+        </form>
+    </div>
+</div>
+
+
+<div class="w-full h-20 bg-white flex items-center  justify-end">
+    <a  href="page.html" id="next" class="bg-black text-white rounded-md h-4/5 w-32 mr-8 text-center flex justify-center items-center">Next step</a>
+</div>
+</div>
+</body>
+</html>
